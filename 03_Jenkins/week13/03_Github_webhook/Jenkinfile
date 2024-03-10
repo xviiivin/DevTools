@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        // Define variables11112222
+        // Define variables11112222ควย
         DOCKER_IMAGE       = 'wiwatwin1801/fastapi-webhook:latest'
         DOCKER_CREDENTIALS = credentials('dockerhub')
     }
